@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public')),
 app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 
-http.listen(process.env.PORT) || 3000 function*() {
-	console.log("Listening on *:3000");
-}
-})
+http.listen(3000, function() {
+	console.log('listening of port 3000');
+	});
+});
