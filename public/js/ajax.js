@@ -119,3 +119,7 @@ $(document).ready(function(){
         return false; 
     }); 
 });
+
+// you can practice on your own server (no one else can edit) by changing the url
+		// ex: http://rest.learncode.academy/api/learncode/friends/ ---->
+			//	http://rest.learncode.academy/api/learncode/jenfriends/
