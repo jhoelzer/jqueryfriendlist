@@ -17,6 +17,7 @@ app.get('/', function(req, res) {
 });
 
 http.listen(process.env.PORT || 3000, function() {
+	// tells heroku to run port automatically on an available port for public use, but to use port 3000 for local servers
 	console.log('Listening on *:3000');
 	//listens for events on that specific local port ("address") (3000 in this case)
 	//env = environment values
